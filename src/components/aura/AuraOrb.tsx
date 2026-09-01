@@ -21,8 +21,8 @@ export function AuraOrb({ state, className }: Props) {
         const angle = (i / PARTICLES) * Math.PI * 2 + i * 0.37;
         const dist = 120 + ((i * 37) % 90);
         return {
-          px: `${Math.cos(angle) * dist}px`,
-          py: `${Math.sin(angle) * dist}px`,
+          px: `${(Math.cos(angle) * dist).toFixed(1)}px`,
+          py: `${(Math.sin(angle) * dist).toFixed(1)}px`,
           delay: `${(i * 0.31) % 4}s`,
           dur: `${3.4 + ((i * 13) % 22) / 10}s`,
           size: i % 4 === 0 ? 3 : 2,
