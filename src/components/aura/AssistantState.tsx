@@ -27,8 +27,13 @@ export function AssistantState({ state, contextMessage }: Props) {
       <h1
         className={cn(
           "font-display text-[2rem] leading-tight font-light tracking-tight 2xl:text-[2.4rem]",
-          state === "idle" ? "text-foreground" : "text-gradient",
+          "text-foreground",
         )}
+        style={
+          state === "idle"
+            ? undefined
+            : { textShadow: "0 0 28px var(--aura-glow)" }
+        }
       >
         {copy.title}
       </h1>
