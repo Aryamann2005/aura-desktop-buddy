@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "AURA — AI Assistant for Windows" },
+      {
+        name: "description",
+        content:
+          "AURA is a premium, futuristic AI voice assistant experience for Windows.",
+      },
+      { name: "author", content: "AURA" },
+      { property: "og:title", content: "AURA — AI Assistant for Windows" },
+      {
+        property: "og:description",
+        content:
+          "A next-generation native desktop AI assistant: voice-first, cinematic, and beautifully minimal.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },

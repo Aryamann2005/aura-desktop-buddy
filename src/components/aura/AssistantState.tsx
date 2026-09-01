@@ -3,7 +3,7 @@ import type { AssistantStateName } from "./types";
 
 type Props = {
   state: AssistantStateName;
-  contextMessage?: string;
+  contextMessage?: string | undefined;
 };
 
 const COPY: Record<AssistantStateName, { title: string; sub?: string }> = {
