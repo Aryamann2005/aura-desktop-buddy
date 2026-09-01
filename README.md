@@ -1,6 +1,6 @@
 # Aura Desktop Assistant
 
-Build a premium desktop AI assistant interface called AURA.
+
 
 AURA is a futuristic AI voice assistant designed specifically for Windows. The experience should feel like a next-generation native desktop assistant, inspired by the elegance and simplicity of Siri, the conversational feel of Google Assistant, and the visual polish of Windows 11.
 
